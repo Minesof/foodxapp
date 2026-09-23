@@ -11,9 +11,9 @@ echo ========================================
 :: taskkill /f /im chrome.exe 2>nul
 
 :: Abre Chrome con impresión kiosko
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --kiosk-printing --app=https://28jdpm-tech.github.io/foodxapp/
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --kiosk-printing --app=https://minesof.github.io/foodxapp/
 
 :: Si Chrome está en otra ubicación, usa esta línea alternativa:
-:: start "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --kiosk-printing --app=https://28jdpm-tech.github.io/foodxapp/
+:: start "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --kiosk-printing --app=https://minesof.github.io/foodxapp/
 
 exit
